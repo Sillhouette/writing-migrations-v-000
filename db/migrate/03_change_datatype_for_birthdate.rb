@@ -1,4 +1,4 @@
-class ChangeBirthdate < AcriveRecord::Migration[5.1]
+class ChangeBirthdate < ActiveRecord::Migration[5.1]
   def change
     change_column(:students, :birthdate, :string)
   end
